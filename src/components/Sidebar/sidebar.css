@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	width: 300px;
+	height: 100vh;
+	padding: 30px 20px;
+	background-color: #fcf8ff;
+	border-right: 1px solid #e8dfec;
+}
+
+.logo-link {
+	display: flex;
+	justify-content: center;
+  margin-bottom: 50px;
+}
+
+.site-logo {
+	width: 120px;
+}
+
+.nav-list {
+	margin: 0;
+  padding: 0;
+	list-style-type: none;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+	padding: 8px 0px;
+	border-bottom: 1px solid #e8dfec;
+}
+
+.nav-item:not(:last-child){
+  margin-bottom: 5px;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 20px;
+	font-family: "Rowdies", cursive;
+  font-display: swap;
+  font-size: 20px;
+	color: #000;
+	font-weight: 300;
+	text-decoration: none;
+  transition: 0.2s linear;
+}
+
+.sidebar-link:hover {
+	transform: scale(0.95);
+  color: #ff1818;
+}
+
+.link-active {
+	color: #ff1818;
+}
+
+.link-active:hover{
+  transform: scale(1);
+}

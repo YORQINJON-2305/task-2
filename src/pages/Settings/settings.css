@@ -1,0 +1,37 @@
+.setting-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.setting-list{
+  display: flex;
+  align-items: center;
+}
+
+.setting-item{
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.setting-item:first-child{
+  margin-right: 20px;
+}
+
+.new-user-input{
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+}
+
+.new-user-input:focus{
+  box-shadow: 0px 0px 4px #0055ff;
+  border-color: #0055ff;
+}

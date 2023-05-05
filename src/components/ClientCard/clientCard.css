@@ -1,0 +1,66 @@
+.client-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 270px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.client-item-name-wrap{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.client-name{
+  margin-right: 10px;
+}
+
+.client-item-info-wrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.client-item-location{
+  margin: 0;
+}
+
+.client-item-age{
+  margin: 0;
+}
+
+.client-item-course{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+}
+
+.loading-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.client-input{
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+}
+
+.client-input:focus{
+  box-shadow: 0px 0px 4px #0055ff;
+  border-color: #0055ff;
+}
